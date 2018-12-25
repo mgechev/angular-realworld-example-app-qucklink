@@ -8,6 +8,7 @@ import { ArticleListComponent, ArticleMetaComponent, ArticlePreviewComponent } f
 import { FavoriteButtonComponent, FollowButtonComponent } from './buttons';
 import { ListErrorsComponent } from './list-errors.component';
 import { ShowAuthedDirective } from './show-authed.directive';
+import { QuicklinkModule } from 'ngx-quicklink';
 
 @NgModule({
   imports: [
@@ -15,7 +16,8 @@ import { ShowAuthedDirective } from './show-authed.directive';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    RouterModule
+    RouterModule,
+    QuicklinkModule
   ],
   declarations: [
     ArticleListComponent,
@@ -27,6 +29,7 @@ import { ShowAuthedDirective } from './show-authed.directive';
     ShowAuthedDirective
   ],
   exports: [
+    QuicklinkModule,
     ArticleListComponent,
     ArticleMetaComponent,
     ArticlePreviewComponent,
