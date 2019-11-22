@@ -5,19 +5,19 @@ import { QuicklinkStrategy } from 'ngx-quicklink';
 const routes: Routes = [
   {
     path: 'settings',
-    loadChildren: './settings/settings.module#SettingsModule'
+    loadChildren: () => import('./settings/settings.module').then(m => m.SettingsModule)
   },
   {
     path: 'profile',
-    loadChildren: './profile/profile.module#ProfileModule'
+    loadChildren: () => import('./profile/profile.module').then(m => m.ProfileModule)
   },
   {
     path: 'editor',
-    loadChildren: './editor/editor.module#EditorModule'
+    loadChildren: () => import('./editor/editor.module').then(m => m.EditorModule)
   },
   {
     path: 'article',
-    loadChildren: './article/article.module#ArticleModule'
+    loadChildren: () => import('./article/article.module').then(m => m.ArticleModule)
   }
 ];
 
