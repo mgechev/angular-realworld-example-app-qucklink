@@ -25,7 +25,7 @@
     "@angular/platform-browser-dynamic": "next",
     "@angular/router": "next",
     "core-js": "3",
-    "marked": "^0.7.0",
+    "marked": "^4.0.10",
     "moment": "^2.24.0",
     "ngx-quicklink": "^0.1.5",
     "rxjs": "^6.4.0",
