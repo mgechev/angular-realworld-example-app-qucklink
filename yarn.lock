@@ -165,11 +165,11 @@
     tslib "^1.9.0"
 
 "@angular/core@next":
-  version "8.0.0-beta.13"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-8.0.0-beta.13.tgz#6dcd7b5831208ec37e6992003725ba09f987c9ab"
-  integrity sha512-9UjhN9hWgz3FGkhx0PEwH/mtoSTTGIj24kTukvvS4HORxmLpX5+xF0Bh80PX9MUZJJMxFl3C1Sxd2Lo/onJsJQ==
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-14.0.0.tgz#74a3df2988f81eb7ca00b5961a3145dadfa05e92"
+  integrity sha512-Mj3r8iMlWfMbY+9DRUFZx1gKnA27Jwx3ff/VXeXBgfxaEKDYmlZSnliZSV6ssiHSUwn/U6yxDXFgcZL090zNBQ==
   dependencies:
-    tslib "^1.9.0"
+    tslib "^2.3.0"
 
 "@angular/forms@next":
   version "8.0.0-beta.13"
@@ -6131,6 +6131,11 @@ ts-node@~8.1.0:
 tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
+
+tslib@^2.3.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
+  integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
 
 tslint@~5.16.0:
   version "5.16.0"
